@@ -2,9 +2,10 @@
   "name": "backend-project",
   "version": "1.0.0",
   "description": "backend project with learning",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,8 @@
     "project"
   ],
   "author": "Dibakar Bera",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
